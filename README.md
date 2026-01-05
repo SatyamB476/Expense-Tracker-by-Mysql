@@ -1,86 +1,53 @@
-FinTrack: OOP-Based Personal Finance Analytics System
-📌 Project Overview
-FinTrack is a professional-grade personal finance management tool built to solve the practical problem of disorganized expense tracking. Unlike static spreadsheets, this system utilizes a Client-Server Architecture to provide a secure, scalable, and data-driven approach to financial health.
+# 📊 FinTrack: OOP-Based Personal Finance Analytics System
 
-This project demonstrates a strong foundation in Python, SQL, and Data Analytics  by integrating a live MySQL database with automated Pandas analysis and Matplotlib visualizations.
+## 📌 Project Overview
+**FinTrack** is a professional-grade personal finance management tool built to solve the practical problem of disorganized expense tracking. Unlike static spreadsheets, this system utilizes a **Client-Server Architecture** to provide a secure, scalable, and data-driven approach to financial health.
 
-🚀 Key Features
+This project demonstrates a strong foundation in **Python, SQL, and Data Analytics** by integrating a live **MySQL database** with automated **Pandas** analysis and **Matplotlib** visualizations.
 
-Relational Database Management: Uses a normalized MySQL schema with foreign keys to ensure data integrity.
+---
 
+## 🚀 Key Features
+* **Relational Database Management:** Uses a normalized **MySQL** schema with foreign keys to ensure data integrity.
+* **Object-Oriented Design (OOP):** Built with modular Python classes for maintainable and scalable code.
+* **Automated Data Analytics:** Leverages **Pandas** to perform real-time data transformation and aggregation.
+* **Interactive Visualizations:** Generates spending distribution reports using **Matplotlib**.
+* **Professional CLI:** A polished Command Line Interface using the `tabulate` library for structured data reporting.
 
-Object-Oriented Design (OOP): Built with modular Python classes for maintainable and scalable code.
+---
 
+## 🛠️ Technical Stack
+* **Language:** Python (Primary)
+* **Database:** MySQL (Server-based DBMS)
+* **Libraries:** Pandas, NumPy, Matplotlib, MySQL-Connector, Tabulate
+* **Tools:** Git, GitHub, Visual Studio Code
 
+---
 
-Automated Data Analytics: Leverages Pandas to perform real-time data transformation and aggregation.
+## 🏗️ System Architecture
+The project follows a **3-Layer Architecture**:
+1. **Presentation Layer (`main.py`):** Interactive CLI for user input and reporting.
+2. **Logic Layer (`manager.py`):** OOP-based controller handling data processing and analytics.
+3. **Data Access Layer (`database.py`):** Automated SQL script to initialize schemas and manage persistence.
 
+---
 
+## 📥 Installation & Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/SatyamB476/Expense-Tracker-by-Mysql.git](https://github.com/SatyamB476/Expense-Tracker-by-Mysql.git)
 
-
-Interactive Visualizations: Generates spending distribution reports using Matplotlib.
-
-
-
-Professional CLI: A polished Command Line Interface using the tabulate library for structured data reporting.
-
-🛠️ Technical Stack
-
-Language: Python (Primary) 
-
-
-Database: MySQL (Server-based DBMS) 
-
-
-Libraries: Pandas, NumPy, Matplotlib, MySQL-Connector, Tabulate 
-
-
-
-Tools: Git, GitHub, Visual Studio Code 
-
-🏗️ System Architecture
-The project follows a 3-Layer Architecture:
-
-Presentation Layer (main.py): An interactive CLI for user input and reporting.
-
-
-Logic Layer (manager.py): OOP-based controller handling data processing and analytics.
-
-
-
-Data Access Layer (database.py): Automated SQL script to initialize schemas and manage persistence.
-
-📊 Analytics Insight
-The system doesn't just store data; it interprets it. By selecting the "Generate Visual Analytics" option, users receive a modern, high-fidelity pie chart showing exactly where their money is going, supporting better pricing and inventory-style personal decisions.
-
-📥 Installation & Setup
-Clone the Repository:
-
+2.Install Dependencies:
 Bash
-
-git clone https://github.com/your-username/FinTrack.git
-Install Dependencies:
-
-Bash
-
 pip install mysql-connector-python pandas matplotlib tabulate
 Configure Database:
 
-Open database.py and manager.py.
+3.Update the password variable in database.py and manager.py.
 
-Update the password variable with your local MySQL root password.
-
-Run the Application:
-
+4.Run the Application:
 Bash
-
 python main.py
+
 👨‍💻 Author
-Satyam Computer Science Engineering Student | Chandigarh University 
-
-
-
-LinkedIn: [Your LinkedIn Link] 
-
-
-GitHub: [Your GitHub Link]
+Satyam
+Email: satyambhardwaj0391@gmail.com
